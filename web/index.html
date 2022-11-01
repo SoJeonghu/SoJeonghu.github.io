@@ -34,10 +34,27 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '2409323048';
+    var serviceWorkerVersion = '2499698570';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
+
+  <script>
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js";
+    console.log('dkd')
+    console.log(storage);
+    const firebaseConfig = {
+      apiKey: "AIzaSyCvy0nEzeQzv6O1ItxGpgGDqzUBAlTRAMs",
+      authDomain: "notional-access-355205.firebaseapp.com",
+      projectId: "notional-access-355205",
+      storageBucket: "leisureahimage",
+      messagingSenderId: "1011175183513",
+      appId: "1:1011175183513:web:70e486eae87fc357b99408",
+      measurementId: "G-8EEDYB4TH4"
+    };
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
 </head>
 <body>
   <script>
